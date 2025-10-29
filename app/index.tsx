@@ -27,7 +27,7 @@ export default function RootLayout() {
     <GestureHandlerRootView>
       <LegendList
         data={syntheticData}
-        // stickyIndices={[0]}
+        stickyIndices={[0]}
         renderItem={({ item }) => (
           <View style={{ padding: 16 }}>
             <Text>{item.name}</Text>
